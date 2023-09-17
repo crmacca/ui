@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'source-code': ['Source Code Pro', 'sans']
+    }
   },
   plugins: [require('tailwindcss-font-inter')],
 }
